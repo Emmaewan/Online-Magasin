@@ -1,0 +1,186 @@
+/*Skrifttype*/
+
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+h1{
+    text-align: center;
+    color: #b7c398;
+    font-size: 48px;
+    margin-top: 75px;
+}
+
+h2{
+    text-align: center;
+    font-size: 20px;
+    line-height: 2;
+    margin-bottom: 100px;
+
+}
+
+
+/*Vandmærke*/ 
+
+body {
+    background-image: url('img/vandmærke.png'); 
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+}
+
+/* Nulstiller */
+ul, li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+/* Style for navigationselementerne */
+.navigation {
+    display:flex;
+    background-color: #e6dfce;
+    color: #fff;
+    padding: 10px;
+    justify-content: center;
+}
+
+.nav-item {
+    position:relative;
+    margin-right: 130px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.nav-item a {
+    text-decoration: none;
+    color: black;
+}
+
+/*style for logo*/
+
+#logo{
+    position: absolute;
+    top: 8px;
+    left: 20px;
+   
+  }
+
+.logo-class{
+    width: 100px;
+    height: auto;
+    transform: scale(1.5);
+}
+
+
+/* Style for dropdown-menuerne */
+.dropdown {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #e6dfce;
+    display: none;
+    z-index: 1;
+}
+
+.nav-item:hover .dropdown {
+    display: block;
+}
+
+.dropdown li {
+    border-bottom: 1px solid #fff;
+    padding: 0;
+    white-space: nowrap;
+}
+
+.dropdown li a {
+    padding: 10px 15px;
+    color: black;
+    text-decoration: none;
+    font-size: 13px;
+}
+
+.dropdown li:first-child {
+    margin-top: 0;
+}
+
+.dropdown a {
+    color: #fff;
+    text-decoration: none;
+}
+
+
+/*syle for forsidebilledet*/
+
+main{
+    z-index: 0;
+    position: relative;
+}
+
+img{
+    width: 100%;
+    display: block;
+}
+
+
+/*Billeder til artikel 1 + liste*/
+
+
+.image-container {
+    display:flex;
+    justify-content: center;
+    margin-top: 10px; 
+    
+    
+}
+
+.image-container img {
+    width: 350px;
+    height: 350px;
+    margin-right: 30px; 
+    
+}
+
+
+ol li {
+    margin-top: 50px;
+    margin-bottom: 60px;
+    margin-left: 90px;
+    line-height: 30px;
+}
+
+
+
+
+/*Style til artikel 2*/
+
+
+.overskriftartikel2{
+    margin-left: 140px;
+    margin-top: 75px;
+}
+
+.paragrafartikel2{
+    margin-left: 140px;
+    margin-bottom: 0px;
+    line-height: 30px;
+}
+
+
+/*Style til artikel 3*/
+
+
+.overskriftartikel3{
+    margin-left: 140px;
+    margin-top: 75px;
+}
+
+.paragrafartikel3{
+    margin-left: 140px;
+    margin-bottom: 0px;
+    line-height: 30px;
+}
+
+
+
